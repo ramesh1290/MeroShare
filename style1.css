@@ -1,3 +1,180 @@
-.p{
-    color:red;
+*
+{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+    background-color:#333A56;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mero-share
+{
+    margin:150px 0px 0px 550px;
+    width:443.5px;
+    height:500px;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7); 
+}
+.border:hover
+{
+    border:2px solid white;
+}
+.mero-share-box
+{display: flex;
+    flex-direction:column ;
+    margin:18px 0px 0px 15px;
+    width:416px;
+    height: 461px;
+}
+.image
+{
+   margin-top:2px;
+   margin-left:22%;
+    width:250px ;
+    height:64px;
+    background-image: url("brand-login.png");
+    background-size:cover;
+}
+.first-panel
+{
+    display:flex;
+    flex-direction: column;
+}
+.search-icon
+{
+    display:flex;
+    width: 395px;
+     margin-top:1rem;
+}
+.icon i{
+    margin-right:7px;
+    color:whitesmoke;
+}
+.depo{
+    color:whitesmoke;
+}
+
+.type-dp1
+{
+    margin-top:10px;
+   padding:0px 14px 0px 5px;
+    width:414px;
+    height:33px;
+    background-color: whitesmoke;
+}
+.type1{
+
+  visibility:hidden;
+  background-color: whitesmoke;
+}
+.type2{
+    background-color: whitesmoke;
+}
+.type3{
+    background-color: whitesmoke;
+}
+.type4{
+    background-color: whitesmoke;
+}
+.type5{
+    background-color: whitesmoke;
+}
+
+
+.second-panel
+{
+    display:flex;
+    flex-direction: column;
+}
+.search-icon
+{
+    display:flex;
+    width: 395px;
+     margin-top:1rem;
+}
+.icon i{
+    margin-right:7px;
+    color:whitesmoke;
+}
+.user{
+    margin-left:4px;
+    color:whitesmoke;
+}
+
+.type-dp
+{
+    margin-top:10px;
+   padding:0px 14px 0px 5px;
+    width:394px;
+    height:33px;
+    background-color: whitesmoke;
+}
+
+
+.third-panel
+{
+    display:flex;
+    flex-direction: column;
+}
+.search-icon
+{
+    display:flex;
+    width: 395px;
+     margin-top:1rem;
+}
+.icon i{
+    margin-right:7px;
+    color:whitesmoke;
+}
+.word{
+    margin-left:4px;
+    color:whitesmoke;
+}
+
+.type-dp
+{
+    margin-top:10px;
+   padding:0px 14px 0px 5px;
+    width:394px;
+    height:33px;
+    background-color: whitesmoke;
+}
+.icon-login
+{
+    margin-top:2rem;
+   padding:0px 14px 0px 5px;
+    width:394px;
+    height:40px;
+    background-color:#5E6EA7;
+    border:2px solid black;
+}
+.icon-login p
+{text-align: center;
+    margin-top:12px;
+    color:whitesmoke;
+    background-color:#5E6EA7;
+    font-size: 1rem;
+
+}
+.forgot-password{
+    margin-top:1.5rem;
+
+}
+.forgot-password p
+{
+    text-align: center;
+    margin-top:12px;
+    color:whitesmoke;
+    font-size: 1rem;
+}
+.footer-panel{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:0.85rem;
+}
+.footer-panel-icon{
+    margin-right:5px;
 }
